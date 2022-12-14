@@ -1,0 +1,49 @@
+<!--
+    CSS 명칭을 정할 때 BEM CSS를 참고하여 만들면 조금 더 직관적이게 만들 수 있다.
+
+-->
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IEedge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Chatting Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i><!--Wifi Icon-->
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-lock"></i><!--잠금표시 Icon-->
+            100%
+            <i class="fas fa-battery-full"></i><!--배터리 Icon-->
+            <i class="fas fa-bolt"></i><!--번개모양(충전) Icon-->
+        </div>  
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Chatting Clone</h1>
+        <p class="welcome-header__text">if you have a Chatting Clone Account,<br>
+            log in with your email or phone number
+        </p>
+    </header>
+    
+    
+    <form action="#" id="login-form">
+        <input type="text" placeholder="Email or Phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log In"/>
+        <a href="#">Find Chatting Clone Account or Password</a>
+    </form>
+
+    <!--어썸 스크립트-->
+    <script src="https://kit.fontawesome.com/2506c7d869.js" crossorigin="anonymous"></script>
+</body>
+</html>
