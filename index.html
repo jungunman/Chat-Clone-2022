@@ -36,11 +36,14 @@
     </header>
     
     
-    <form action="#" id="login-form">
-        <input type="text" placeholder="Email or Phone number"/>
-        <input type="password" placeholder="Password"/>
-        <input type="submit" value="Log In"/>
-        <a href="#">Find Chatting Clone Account or Password</a>
+    <form action="./friends.html" method="get" class="login-form">
+        <input type="text" name="userId" class="login-form__input" placeholder="Email or Phone number"/>
+        <input type="password" name="userPwd" class="login-form__input" placeholder="Password"/>
+        <input type="submit" class="login-form__button" value="Log In"/>
+        <button class="login-form__button">
+            <a href="./sign-up.html" class="login-form__a">Sign Up</a>
+        </button>
+        <a href="#" class="login-form__a">Find Chatting Clone Account or Password</a>
     </form>
 
     <!--어썸 스크립트-->
