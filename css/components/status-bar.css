@@ -9,31 +9,34 @@ css hack(justify-content대신사용가능)
 - 3 중앙에 위치할 박스 : display: flex; justify-content: center; -중앙에 위치할 박스만 중앙에 위치함
 - 4 오른쪽에 정렬할 박스 : *display*: flex; *justify-content*: flex-end; *align-items*: center; -오른쪽에 붙어서 정렬됨*/
 .status-bar {
-    display: flex;
-    justify-content: center;
-    padding: 5px 3px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 5px 3px;
+  position: fixed;
 }
 .status-bar__column {
-    width: 33%;
+  width: 33%;
 }
 .status-bar__column:first-child span {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 .status-bar__column:nth-child(2) {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .status-bar__column:last-child {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .status-bar__column .fa-lock {
-    margin-right: 3px;
+  margin-right: 3px;
 }
 .status-bar__column .fa-battery-full {
-    margin : 0px 3px;
+  margin: 0px 3px;
 }
 .status-bar__column .fa-bolt {
-    margin : 0px 3px 0px 0px;
+  margin: 0px 3px 0px 0px;
 }

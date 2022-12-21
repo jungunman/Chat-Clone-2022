@@ -1,10 +1,45 @@
 .nav {
-    background-color: #f9f9fa;
-    padding: 20px 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 30px;
+  border-top: 1px solid rgba(131, 130, 130, 0.3);
+  box-sizing: border-box;
 }
 
 .nav__list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav__notification--chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: tomato;
+  border-radius: 50%;
+  font-weight: 600;
+  position: absolute;
+  right: -10px;
+  top: -15px;
+}
+
+.nav__notification--ellipsis {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
 }
