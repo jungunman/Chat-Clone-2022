@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IEedge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Chatting Clone</title>
+    <title>Chats - Chatting Clone</title>
   </head>
   <body>
     <!-- 화면 위의 status-bar를 표현-->
@@ -31,10 +31,13 @@
 
     <!-- header 부분-->
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span>
           <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-comment-medical fa-lg"></i>
         </span>
         <span>
           <i class="fas fa-music fa-lg"></i>
@@ -45,13 +48,6 @@
       </div>
     </header>
 
-    <!--Friends' Names  display 부분-->
-    <a href="#" class="friends-display__link">
-      <i class="fas fa-info-circle"></i>
-      Friends' Names display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
     <!-- main friends-screen 부분 표현-->
     <main class="friends-screen">
       <!-- user-profile 표현 부분-->
@@ -60,38 +56,16 @@
           <img
             src="./img/2.jpg"
             alt="프로필 사진"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Woong</h4>
-            <!--<h6 class="user-component__subtitle">오늘도 화이팅!</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-      <!-- user-profile 표현 부분-->
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="./img/1.jpg"
-            alt="프로필 사진"
             class="user-component__avatar user-component__avatar--sm"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
+            <h4 class="user-component__title">Woong</h4>
+            <h6 class="user-component__subtitle">오늘도 화이팅!</h6>
           </div>
         </div>
-        <div class="user-component__column">
-          <span>2</span>
-          <i class="fas fa-chevron-right fa-xs"></i>
+        <div class="user-component__column user-component__column-block">
+          <span>21:22</span>
+          <div class="user-component__notification">1</div>
         </div>
       </div>
     </main>
@@ -101,13 +75,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="./friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="./chats.html">
             <span class="nav__notification--chat">1</span>
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
