@@ -1,18 +1,14 @@
-.tool-boxes{
+.tool-box__icons{
+    display: flex;
+    justify-content: space-between;
+}
+.tool-box__titles{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
 }
 
-.tool-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.tool-box__title{
     width: 80px;
-}
-
-.tool-box__icon{
-    padding-bottom: 20px;
+    text-align: center;
 }
