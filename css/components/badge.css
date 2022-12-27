@@ -9,3 +9,31 @@
   border-radius: 50%;
   font-weight: 600;
 }
+
+.badge__notification-header {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.badge__notification-chat {
+  position: absolute;
+  right: -10px;
+  top: -15px;
+}
+
+
+.badge__notification-ellipsis {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
+}
