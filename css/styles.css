@@ -6,6 +6,8 @@
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
+@import "./components/badge.css";
+@import "./components/tool-box.css";
 
 /* Screens - 반복되어 사용되지 않는 것들*/
 @import "./screens/login.css";
@@ -17,4 +19,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", system-ui, sans-serif;
   height: 1000vh;
+}
+
+
+.main-screen{
+  padding: 0px var(--horizontal-space);
 }

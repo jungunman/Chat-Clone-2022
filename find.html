@@ -37,63 +37,31 @@
           <i class="fas fa-search fa-lg"></i>
         </span>
         <span>
-          <i class="fas fa-music fa-lg"></i>
-        </span>
-        <span>
           <i class="fas fa-cog fa-lg"></i>
         </span>
       </div>
     </header>
 
-    <!--Friends' Names  display 부분-->
-    <a href="#" class="friends-display__link">
-      <i class="fas fa-info-circle"></i>
-      Friends' Names display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
     <!-- main friends-screen 부분 표현-->
-    <main class="friends-screen">
-      <!-- user-profile 표현 부분-->
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="./img/2.jpg"
-            alt="프로필 사진"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Woong</h4>
-            <!--<h6 class="user-component__subtitle">오늘도 화이팅!</h6> -->
-          </div>
+    <main class="main-screen">
+     <div class="tool-boxes">
+        <div class="tool-box">
+          <i class="fas fa-qrcode fa-3x"></i>
+          <div class="tool-box__title">QR Code</div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+        <div class="tool-box">
+          <i class="far fa-address-book fa-3x"></i>
+          <div class="tool-box__title">Add by Contacts</div>
         </div>
-      </div>
-      <!-- user-profile 표현 부분-->
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="./img/1.jpg"
-            alt="프로필 사진"
-            class="user-component__avatar user-component__avatar--sm"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
-          </div>
+        <div class="tool-box">
+          <i class="fas fa-user-circle fa-3x"></i>
+          <div class="tool-box__title">Add by ID</div>
         </div>
-        <div class="user-component__column">
-          <span>2</span>
-          <i class="fas fa-chevron-right fa-xs"></i>
+        <div class="tool-box">
+          <i class="far fa-envelope fa-3x"></i>
+          <div class="tool-box__title">Invite</div>
         </div>
-      </div>
+     </div>
     </main>
 
     <!-- 화면 아래 nav-bar를 표현-->
@@ -101,18 +69,18 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="./friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="./chats.html">
-            <span class="nav__notification--chat">1</span>
+            <span class="badge nav__notification--chat">1</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html">
-            <i class="fab fa-sistrix fa-2x"></i>
+            <i class="fas fa-search fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
