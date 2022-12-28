@@ -41,8 +41,9 @@
   margin-top: 8px;
   font-size: 15px;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--gray-color);
 }
+
 
 .user-component__title--not-bold {
   font-weight: 400;
@@ -59,4 +60,12 @@
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 5px;
+}
+
+.user-component__column>i {
+  color:var(--i-tag-color);
+}
+
+.user-component__subtitle i{
+  color: rgba(219, 42, 42, 0.8);
 }

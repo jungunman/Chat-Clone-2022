@@ -37,3 +37,29 @@
   position: absolute;
   right: -5px;
 }
+
+.badge__like {
+  font-size: 13px;
+  position: absolute;
+  right: 5px;
+  bottom: 7px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.badge__like span {
+  margin-left: 3px;
+}
+
+.badge__icon-row {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: 20px;
+}

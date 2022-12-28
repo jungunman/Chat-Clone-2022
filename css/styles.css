@@ -7,11 +7,15 @@
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
 @import "./components/badge.css";
+@import "./components/icon-row.css";
+
 
 /* Screens - 반복되어 사용되지 않는 것들*/
 @import "./screens/login.css";
 @import "./screens/friends.css";
 @import "./screens/find.css";
+@import "./screens/more.css";
+@import "./screens/setting.css";
 
 /* Style.css 에는 모든 화면에서 적용될 것들만 적어 놓는다.*/
 body {
@@ -23,4 +27,11 @@ body {
 
 .main-screen{
   padding: 0px var(--horizontal-space);
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 15px;
+  background-color: var(--gray-color);
+  margin: 0px 5px;
 }

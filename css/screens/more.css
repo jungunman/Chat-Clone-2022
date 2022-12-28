@@ -1,0 +1,9 @@
+.more-suggestions__header {
+    border-top: var(--border-color);
+}
+
+.more-suggestions__header h5 {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
