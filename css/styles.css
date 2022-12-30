@@ -5,6 +5,7 @@
 @import "./components/status-bar.css";
 @import "./components/nav-bar.css";
 @import "./components/screen-header.css";
+@import "./components/alt-screen-header.css";
 @import "./components/user-component.css";
 @import "./components/badge.css";
 @import "./components/icon-row.css";
@@ -16,6 +17,7 @@
 @import "./screens/find.css";
 @import "./screens/more.css";
 @import "./screens/setting.css";
+@import "./screens/chat.css";
 
 /* Style.css 에는 모든 화면에서 적용될 것들만 적어 놓는다.*/
 body {
@@ -34,4 +36,9 @@ body {
   height: 15px;
   background-color: var(--gray-color);
   margin: 0px 5px;
+}
+
+
+.last-row {
+  margin-bottom: 70px;
 }

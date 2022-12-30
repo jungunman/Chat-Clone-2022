@@ -1,0 +1,28 @@
+.chat-screen {
+    background-color: #abc1d1; 
+    height: 1000vh;
+}
+
+.main-chat {
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat-screen .alt-header,
+.chat-screen .status-bar {
+    background-color: #abc1d1; 
+}
+.join-notice{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.join-notice span{
+    background-color: #92a4b2;
+    border-radius: 25px;
+    padding: 7px 15px;
+    color: white;
+}
+

@@ -1,28 +1,5 @@
-.setting-header {
-    display: flex;
-    justify-content: center;
-    padding: var(--horizontal-space);
-    padding-top: 40px;
-}
-
-.setting-header__column{
-    display: flex;
-    align-items: center;
-    width: 33.3%;
-    font-size: 25px;
-}
-
-.setting-header__column:nth-child(2) {
-    display: flex;
-    justify-content: center;
-}
-.setting-header__column:last-child {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.setting-header__column h1 {
-    font-weight: 600;
+.settings-screen{
+    margin-top: 80px;
 }
 
 .setting__row{
