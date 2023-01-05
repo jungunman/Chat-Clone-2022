@@ -5,6 +5,7 @@
   --border-color: 1px solid rgba(0, 0, 0, 0.2);
   --border-deep-gray-color: 1px solid rgba(0, 0, 0, 0.05);
   --gray-color : rgba(0,0,0,0.4);
+  --gray-heavy-color : rgba(0,0,0,0.6);
   --i-tag-color:rgba(65, 64, 64,0.9);
   --horizontal-space-none : -20px;
 }

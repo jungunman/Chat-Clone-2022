@@ -1,0 +1,58 @@
+.reply{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+
+.reply i {
+    opacity: 0.5;
+}
+
+.reply .reply__column:first-child{
+    width: 10%;
+}
+.reply .reply__column:last-child {
+    display: flex;
+    width: 90%;
+    border: var(--border-color);
+    border-radius: 30px;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all 0.3s ease-in-out;
+}
+
+.reply input {
+    width: 79%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.reply__column:last-child button {
+    height: 30px;
+    width: 30px;
+    margin: 0px 1px 0px 10px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    border: none;
+    color: black;
+}
+
+.reply__column:last-child button i {
+    opacity: 1;
+}
+
+.reply:focus-within .reply__column:first-child {
+    opacity: 0;
+}
+
+.reply:focus-within .reply__column:last-child{
+    transform: translateX(-10%);
+}

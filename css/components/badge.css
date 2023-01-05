@@ -49,6 +49,7 @@
   padding: 5px;
 }
 
+
 .badge__like span {
   margin-left: 3px;
 }
@@ -62,4 +63,21 @@
   position: absolute;
   top: -5px;
   right: 20px;
+}
+
+@keyframes heartBeat {
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: scale(2);
+    color: hotpink;
+  }
+  100%{
+    transform: none;
+  }
+}
+.badge__like:hover i {
+  will-change: transform;
+  animation: heartBeat 0.5s linear infinite;
 }
