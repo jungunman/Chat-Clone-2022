@@ -49,10 +49,25 @@
     opacity: 1;
 }
 
+.reply .reply__column:first-child {
+    transition: opacity 0.3 ease-in-out;
+}
+
 .reply:focus-within .reply__column:first-child {
     opacity: 0;
 }
 
+.reply:focus-within .reply__column:last-child input,
 .reply:focus-within .reply__column:last-child{
-    transform: translateX(-10%);
+    width : 92vw;
+    transform: translateX(-5%);
+}
+
+.reply:focus-within .reply__column:last-child input {
+    margin-left: 20px;
+}
+
+.reply:focus-within .reply__column:last-child button {
+    width:39px;
+    height: 30px;
 }
